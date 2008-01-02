@@ -15,6 +15,7 @@ BuildRequires:	libosip-devel >= 2.2.2
 BuildRequires:	libooh323c-devel >= 0.8.2
 BuildRequires:	autoconf2.5
 BuildRequires:	libtool
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 A tool for extracting portions of packet trace files generated using tcpdump's
