@@ -2,12 +2,13 @@
 
 Summary:	A tool for extracting portions of packet trace files
 Name:		tcpslice
-Version:	1.2a1
+Version:	1.2a3
 Release:	%mkrel 0.%{snap}.1
 Group:		Monitoring
 License:	BSD
 URL:		http://www.tcpdump.org
 Source0:	tcpslice-%{snap}.tar.bz2
+Patch0:		tcpslice-libosip2-3.x.patch
 Requires:	tcpdump >= 0.9.5
 BuildRequires:	libpcap-devel >= 0.9.5
 BuildRequires:	libnids-devel >= 1.21
@@ -24,10 +25,11 @@ A tool for extracting portions of packet trace files generated using tcpdump's
 %prep
 
 %setup -q -n %{name}
+%patch0 -p0 -b .libsip23
 
 %build
 
-%configure2_5x
+%configure
 
 %make
 
