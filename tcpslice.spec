@@ -12,7 +12,7 @@ Patch0:		tcpslice-libosip2-3.x.patch
 Requires:	tcpdump >= 0.9.5
 BuildRequires:	libpcap-devel >= 0.9.5
 BuildRequires:	libnids-devel >= 1.21
-BuildRequires:	libosip-devel >= 2.2.2
+BuildRequires:	libosip2-devel >= 3.0.3
 BuildRequires:	libooh323c-devel >= 0.8.2
 BuildRequires:	autoconf2.5
 BuildRequires:	libtool
