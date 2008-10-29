@@ -3,7 +3,7 @@
 Summary:	A tool for extracting portions of packet trace files
 Name:		tcpslice
 Version:	1.2a3
-Release:	%mkrel 3.%{snap}.2
+Release:	%mkrel 3.%{snap}.3
 Group:		Monitoring
 License:	BSD
 URL:		http://www.tcpdump.org
@@ -16,7 +16,7 @@ BuildRequires:	libosip2-devel >= 3.0.3
 BuildRequires:	libooh323c-devel >= 0.8.2
 BuildRequires:	autoconf2.5
 BuildRequires:	libtool
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 A tool for extracting portions of packet trace files generated using tcpdump's
