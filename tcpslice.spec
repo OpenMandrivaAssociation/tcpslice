@@ -3,7 +3,7 @@
 Summary:	A tool for extracting portions of packet trace files
 Name:		tcpslice
 Version:	1.2a3
-Release:	%mkrel 3.%{snap}.4
+Release:	%mkrel 3.%{snap}.5
 Group:		Monitoring
 License:	BSD
 URL:		http://www.tcpdump.org
