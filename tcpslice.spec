@@ -6,7 +6,7 @@ Version:	1.2a3
 Release:	%mkrel 3.%{snap}.5
 Group:		Monitoring
 License:	BSD
-URL:		http://www.tcpdump.org
+URL:		https://www.tcpdump.org
 Source0:	tcpslice-%{snap}.tar.bz2
 Patch0:		tcpslice-libosip2-3.x.patch
 Requires:	tcpdump >= 0.9.5
